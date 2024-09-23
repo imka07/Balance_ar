@@ -5,10 +5,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -19,9 +17,13 @@ ScriptsOnlyBuild:
     Zappar.UAR.dll:
     - Zappar.ZapparCamera
     - Zappar.ZapparCameraBackground
+    - Zappar.ZapparImageTrackingTarget
     - Zappar.ZapparInstantTrackingTarget
     - Zappar.ZapparUARSettings
-  serializedClasses: {}
+  serializedClasses:
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.UnityEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -33,7 +35,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
@@ -54,13 +60,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 23464}
+      Script: {instanceID: 16648}
     - Class: 114
-      Script: {instanceID: 23518}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 23566}
+      Script: {instanceID: 17956}
     - Class: 114
-      Script: {instanceID: 23614}
+      Script: {instanceID: 20294}
+    - Class: 114
+      Script: {instanceID: 21310}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -70,6 +78,12 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a9700a56d042a890896e97fade3a2d22
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparImageTrackingTarget
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -108,6 +122,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: a21aad47570ac325ba84ba2879b488f9
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparFaceLandmark
+  - hash:
+      serializedVersion: 2
       Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -120,10 +140,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9fde1dec90e313a8d140c995fd854502
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparUARSettings
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 154ffaa197e6773310cf645d2895adb5
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparFaceDepthMask
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -174,6 +206,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: f415d2baec2e572f762abb8e3a0f31ff
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparMultiFaceTrackingTarget
+  - hash:
+      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -204,6 +242,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: bb48ee427390bf36cc10a79096af3401
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparReflectionProbe
+  - hash:
+      serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -226,6 +270,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c9af6b29b22cb6c8c20b81c3b7c77c8b
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparCamera
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -342,6 +392,12 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: f97efca7fcad61c84539c12a88067e2f
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar.Obsolete
+    className: ZapparFaceTrackingTarget
+  - hash:
+      serializedVersion: 2
       Hash: cf32d98954e63b8e30e9334b152e9b8e
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -424,6 +480,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6ad7f9c6d3c6941185b44f0422fc29d1
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparFullHeadModel
   - hash:
       serializedVersion: 2
       Hash: 042785b832afb73fd0585521aa7baf43
@@ -582,6 +644,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: a04e18ed0d480b18578ac7095727e154
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparCameraBackground
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -600,6 +668,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: edd1e1cfab7074cc5218309c154f2646
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparFaceTrackingAnchor
+  - hash:
+      serializedVersion: 2
       Hash: bf0842d88681628b29beb00b5e2ab785
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -612,6 +686,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: c9988028e81cdd3b5c06ac1ab89eecd1
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: LogManager
+  - hash:
+      serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -622,6 +702,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 5b53d2ad7bd78cd5d6c4f90527671deb
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparGyroCamera
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -640,6 +726,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e0380e33851ce0621dfcf883bfb4e1ec
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparFaceMeshTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 18c37690a027729c5f1d6a6939a18fbc
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparGyroCameraBackground
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -682,6 +780,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: e17b1eb8751be3762c604f9817bee3de
+    assemblyName: Zappar.UAR
+    namespaceName: Zappar
+    className: ZapparInstantTrackingTarget
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -892,103 +996,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f97efca7fcad61c84539c12a88067e2f
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar.Obsolete
-    className: ZapparFaceTrackingTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 9fde1dec90e313a8d140c995fd854502
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparUARSettings
-  - hash:
-      serializedVersion: 2
-      Hash: a9700a56d042a890896e97fade3a2d22
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparImageTrackingTarget
-  - hash:
-      serializedVersion: 2
-      Hash: f415d2baec2e572f762abb8e3a0f31ff
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparMultiFaceTrackingTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 18c37690a027729c5f1d6a6939a18fbc
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparGyroCameraBackground
-  - hash:
-      serializedVersion: 2
-      Hash: c9af6b29b22cb6c8c20b81c3b7c77c8b
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 5b53d2ad7bd78cd5d6c4f90527671deb
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparGyroCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 154ffaa197e6773310cf645d2895adb5
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparFaceDepthMask
-  - hash:
-      serializedVersion: 2
-      Hash: a21aad47570ac325ba84ba2879b488f9
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparFaceLandmark
-  - hash:
-      serializedVersion: 2
-      Hash: e17b1eb8751be3762c604f9817bee3de
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparInstantTrackingTarget
-  - hash:
-      serializedVersion: 2
-      Hash: edd1e1cfab7074cc5218309c154f2646
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparFaceTrackingAnchor
-  - hash:
-      serializedVersion: 2
-      Hash: bb48ee427390bf36cc10a79096af3401
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparReflectionProbe
-  - hash:
-      serializedVersion: 2
-      Hash: c9988028e81cdd3b5c06ac1ab89eecd1
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: LogManager
-  - hash:
-      serializedVersion: 2
-      Hash: 6ad7f9c6d3c6941185b44f0422fc29d1
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparFullHeadModel
-  - hash:
-      serializedVersion: 2
-      Hash: e0380e33851ce0621dfcf883bfb4e1ec
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparFaceMeshTarget
-  - hash:
-      serializedVersion: 2
-      Hash: a04e18ed0d480b18578ac7095727e154
-    assemblyName: Zappar.UAR
-    namespaceName: Zappar
-    className: ZapparCameraBackground
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/imran01/Downloads/ar_testBuild/AR_test/AR_test
+  playerPath: /Users/imran01/Downloads/ar_testBuild/Balance

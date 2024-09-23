@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65521
+49509
 Successfully changed project path to: /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR
 /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,14 +56,13 @@ Successfully changed project path to: /Users/imran01/Documents/GitHub/Balance_ar
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8021757952] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1472659294 [EditorId] 1472659294 [Version] 1048832 [Id] OSXEditor(0,Imka.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7973801984] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1020735527 [EditorId] 1020735527 [Version] 1048832 [Id] OSXEditor(0,Imka.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8021757952] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1472659294 [EditorId] 1472659294 [Version] 1048832 [Id] OSXEditor(0,Imka.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7973801984] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1020735527 [EditorId] 1020735527 [Version] 1048832 [Id] OSXEditor(0,Imka.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 17.09 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (code signature in <92F9330F-0B74-3AA5-8CEF-9DCDAFB20B88> '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (code signature in <92F9330F-0B74-3AA5-8CEF-9DCDAFB20B88> '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' not valid for use in process: library load disallowed by system policy)
-Preloading 1 native plugins for Editor in 6685.54 ms.
+Refreshing native plugins compatible for Editor in 13.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.57 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Assets
@@ -77,54 +76,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56995
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56881
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.008679 seconds.
-- Loaded All Assemblies, in  0.376 seconds
+Registered in 0.005721 seconds.
+- Loaded All Assemblies, in  0.348 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 276 ms
+Android Extension - Scanning For ADB Devices 101 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.651 seconds
-Domain Reload Profiling: 1027ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 804ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (116ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (652ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (456ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (597ms)
+		SetupLoadedEditorAssemblies (401ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (462ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (275ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -132,8 +131,8 @@ Domain Reload Profiling: 1027ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.771 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -155,757 +154,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.763 seconds
-Domain Reload Profiling: 1535ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (539ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (247ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (216ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (764ms)
+	FinalizeReload (684ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (607ms)
+		SetupLoadedEditorAssemblies (535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (494ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (59.8 KB). Loaded Objects now: 3605.
-Memory consumption went from 136.2 MB to 136.1 MB.
-Total: 5.572833 ms (FindLiveObjects: 0.232250 ms CreateObjectMapping: 0.069166 ms MarkObjects: 5.039750 ms  DeleteObjects: 0.231208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 675216.829818 seconds.
-  path: Assets/WebGLTemplates/Zappar2019/index.html
-  artifactKey: Guid(bdb8dcae9932c4cb1bebfddc8486525a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/WebGLTemplates/Zappar2019/index.html using Guid(bdb8dcae9932c4cb1bebfddc8486525a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4d55978ac200240ade2d59b70c423c8') in 0.047153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/WebGLTemplates/Zappar2019/favicon.ico
-  artifactKey: Guid(d5ce5a07b836146339a5f4701bd7f1a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/WebGLTemplates/Zappar2019/favicon.ico using Guid(d5ce5a07b836146339a5f4701bd7f1a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8f66d291d69b1bd9fbf18614addc465') in 0.002018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/WebGLTemplates/Zappar/favicon.ico
-  artifactKey: Guid(25febdfd7e2734b449820900b5e6745e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/WebGLTemplates/Zappar/favicon.ico using Guid(25febdfd7e2734b449820900b5e6745e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eef259d860ac809d031e5ecaaf9c8bc') in 0.003231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x289287000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.874 seconds
-Refreshing native plugins compatible for Editor in 6.60 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.216 seconds
-Domain Reload Profiling: 2091ms
-	BeginReloadAssembly (463ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (206ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (399ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1217ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (651ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (489ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.23 ms.
-Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (2.8 MB). Loaded Objects now: 3625.
-Memory consumption went from 151.3 MB to 148.6 MB.
-Total: 5.430875 ms (FindLiveObjects: 0.174542 ms CreateObjectMapping: 0.073083 ms MarkObjects: 4.046459 ms  DeleteObjects: 1.133084 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 401.312794 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab
-  artifactKey: Guid(6788413dff62c534d8ca610faef3c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab using Guid(6788413dff62c534d8ca610faef3c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd59c912fe4122336ae0e4531f3cacff') in 0.646471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 455
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/LookPos.prefab
-  artifactKey: Guid(6d5bff5837eca402492a89073b17c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/LookPos.prefab using Guid(6d5bff5837eca402492a89073b17c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b3994dd01c38c0e933908d567c0851') in 0.001599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/unitychan.prefab
-  artifactKey: Guid(412b92d4feeb9c548bfa98f62c4d1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/unitychan.prefab using Guid(412b92d4feeb9c548bfa98f62c4d1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2152ae65cf586dd7ff256263c0b5de') in 1.609996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 585
-========================================================================
-Received Import Request.
-  Time since last request: 159.907107 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanARPose.controller
-  artifactKey: Guid(3173dc991e314594abd6180b45c49c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanARPose.controller using Guid(3173dc991e314594abd6180b45c49c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf25899918a1c3bd42b7b2f19ad2989') in 0.073633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 162
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17e0c7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.592 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.278 seconds
-Domain Reload Profiling: 1871ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (54ms)
-			TypeCache.Refresh (38ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1279ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (525ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (422ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (1.1 MB). Loaded Objects now: 3644.
-Memory consumption went from 164.6 MB to 163.5 MB.
-Total: 6.907625 ms (FindLiveObjects: 1.401333 ms CreateObjectMapping: 0.085167 ms MarkObjects: 4.206792 ms  DeleteObjects: 1.213833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 76.993205 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/face only mask.mask
-  artifactKey: Guid(c6893d99d338240cd834967aa6448379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/face only mask.mask using Guid(c6893d99d338240cd834967aa6448379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ee14d39d1ee4f6eedb9f3772c81140') in 0.026806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.474517 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx
-  artifactKey: Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx using Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2302eec001606b7174e02f3d7c3d94b9') in 0.057437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 300
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx
-  artifactKey: Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx using Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6fed96d707feb036207084c52fa8b3') in 0.832400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_LOSE00.fbx
-  artifactKey: Guid(c7df2ec8d896a4a15abc7636d440631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_LOSE00.fbx using Guid(c7df2ec8d896a4a15abc7636d440631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795853665b28269afc1dcf6c2eaa5cea') in 0.057176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_R.fbx
-  artifactKey: Guid(dbc663f7e83140241a679da3ca9063b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_R.fbx using Guid(dbc663f7e83140241a679da3ca9063b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4190f663ff29aa39234351306bc39957') in 0.052878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_R.fbx
-  artifactKey: Guid(ffe87c9e4c26d174b8df06771ce447bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_R.fbx using Guid(ffe87c9e4c26d174b8df06771ce447bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b013c3e5347614e5de68df6850558e19') in 0.054010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT03.fbx
-  artifactKey: Guid(f98ead48d3193eb43a7839c6847a5b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT03.fbx using Guid(f98ead48d3193eb43a7839c6847a5b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1d374a04c311ceb7f245092fece671') in 0.056607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT04.fbx
-  artifactKey: Guid(685e1a7587d604fd8a8a0a56834063bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT04.fbx using Guid(685e1a7587d604fd8a8a0a56834063bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcf4ed603ebabcaaa1b4470fc680307') in 0.059856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx
-  artifactKey: Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx using Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1217cbc2f655f673a69a2e7f2c9b948f') in 0.060427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx
-  artifactKey: Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx using Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cf64f97b4cab4195335bd5118a516f') in 0.053981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_REFLESH00.fbx
-  artifactKey: Guid(842226a6a478847f9b6f5c746ae1cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_REFLESH00.fbx using Guid(842226a6a478847f9b6f5c746ae1cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbba8c43832a5467fda32af4a89e5bf') in 0.057068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx
-  artifactKey: Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx using Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772dd5a4098ce3728b9e42024272c183') in 0.055340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx
-  artifactKey: Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx using Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eaddc5b8ca9105a4bd3868c0a93938') in 0.056566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx
-  artifactKey: Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx using Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb00737b7089fbe39e989eb770799d9') in 0.062456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 325
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17e0c7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.408 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.036 seconds
-Domain Reload Profiling: 1445ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (204ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (43ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1036ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (501ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (405ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.59 ms.
-Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.1 MB). Loaded Objects now: 3652.
-Memory consumption went from 175.1 MB to 174.0 MB.
-Total: 45.310375 ms (FindLiveObjects: 1.021875 ms CreateObjectMapping: 0.158083 ms MarkObjects: 42.262917 ms  DeleteObjects: 1.866500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17d6fb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.630 seconds
-Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.235 seconds
-Domain Reload Profiling: 1866ms
-	BeginReloadAssembly (170ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (344ms)
-		LoadAssemblies (392ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1235ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.26 ms.
-Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.1 MB). Loaded Objects now: 3656.
-Memory consumption went from 186.1 MB to 185.0 MB.
-Total: 12.232875 ms (FindLiveObjects: 0.243625 ms CreateObjectMapping: 0.075333 ms MarkObjects: 10.982292 ms  DeleteObjects: 0.930875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.77 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.28 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4 unused Assets / (1.0 MB). Loaded Objects now: 3656.
-Memory consumption went from 136.7 MB to 135.6 MB.
-Total: 10.087625 ms (FindLiveObjects: 0.199333 ms CreateObjectMapping: 0.061083 ms MarkObjects: 9.348417 ms  DeleteObjects: 0.478583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.73 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.43 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4 unused Assets / (1.0 MB). Loaded Objects now: 3656.
-Memory consumption went from 136.0 MB to 135.0 MB.
-Total: 47.748250 ms (FindLiveObjects: 0.261792 ms CreateObjectMapping: 0.081708 ms MarkObjects: 46.715958 ms  DeleteObjects: 0.688416 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17d6fb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.942 seconds
-Refreshing native plugins compatible for Editor in 25.74 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.200 seconds
-Domain Reload Profiling: 2144ms
-	BeginReloadAssembly (453ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (407ms)
-		LoadAssemblies (637ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (59ms)
-			TypeCache.Refresh (35ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1201ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (597ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (85ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.47 ms.
-Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (45.9 KB). Loaded Objects now: 3648.
-Memory consumption went from 193.8 MB to 193.7 MB.
-Total: 4.274875 ms (FindLiveObjects: 0.177125 ms CreateObjectMapping: 0.081375 ms MarkObjects: 3.939167 ms  DeleteObjects: 0.075375 ms)
-
-Prepare: number of updated asset objects reloaded= 7
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17d6fb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.537 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
-  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
-  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.338 seconds
-Domain Reload Profiling: 2876ms
-	BeginReloadAssembly (219ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (306ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (2338ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (728ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (198ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (450ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (40.8 KB). Loaded Objects now: 3646.
-Memory consumption went from 203.1 MB to 203.0 MB.
-Total: 4.496000 ms (FindLiveObjects: 0.173917 ms CreateObjectMapping: 0.083125 ms MarkObjects: 4.096959 ms  DeleteObjects: 0.141500 ms)
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (60.3 KB). Loaded Objects now: 3607.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 4.616125 ms (FindLiveObjects: 0.179125 ms CreateObjectMapping: 0.080125 ms MarkObjects: 4.024417 ms  DeleteObjects: 0.331834 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -921,26 +212,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2150.967924 seconds.
-  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans
-  artifactKey: Guid(13aec0c2edfc5ab45b6e2a4402590e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans using Guid(13aec0c2edfc5ab45b6e2a4402590e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7aff088da06b7381a6d8ba52f60f41') in 0.006739 seconds
+  Time since last request: 1101.245174 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat
+  artifactKey: Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat using Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71c1a94bbcb044c29e03b6139d9c8c') in 0.589193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat
+  artifactKey: Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat using Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca48393040840ebed9651982a2471cec') in 0.007514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.596999 seconds.
   path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab
   artifactKey: Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab using Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72939253ffe2f1f07b85ac03f91f4e9f') in 0.209855 seconds
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab using Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c96f21bd9adb00573190a75a74f421') in 0.038614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 1.750210 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab
+  artifactKey: Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab using Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e91102f8fb85cb6eca3e81844eb95e0') in 0.012494 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 294
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x17e1c7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.434 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Thread 0x291d13000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -961,47 +268,46 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.090 seconds
-Domain Reload Profiling: 1524ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (223ms)
-		LoadAssemblies (246ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (21ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1090ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1029ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (503ms)
+		SetupLoadedEditorAssemblies (497ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (405ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (403ms)
 			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.37 ms.
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
 Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (39.7 KB). Loaded Objects now: 3650.
-Memory consumption went from 214.6 MB to 214.6 MB.
-Total: 5.355375 ms (FindLiveObjects: 0.166584 ms CreateObjectMapping: 0.064167 ms MarkObjects: 5.060250 ms  DeleteObjects: 0.063791 ms)
+Unloading 41 unused Assets / (40.5 KB). Loaded Objects now: 3652.
+Memory consumption went from 147.6 MB to 147.6 MB.
+Total: 4.256625 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.084667 ms MarkObjects: 3.956541 ms  DeleteObjects: 0.062000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1019,13 +325,174 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
-Plugins: Couldn't open /Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, error: dlopen(/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining, 0x0002): tried: '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file), '/Users/imran01/Documents/GitHub/Balance_ar/Balance_AR/Packages/com.zappar.uar/Plugins/macOS/ImageTraining.bundle/Contents/MacOS/ImageTraining' (no such file)
-Preloading 1 native plugins for Editor in 0.32 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 3650.
-Memory consumption went from 165.5 MB to 165.5 MB.
-Total: 32.012459 ms (FindLiveObjects: 0.244583 ms CreateObjectMapping: 0.070583 ms MarkObjects: 31.689292 ms  DeleteObjects: 0.007334 ms)
+Begin MonoManager ReloadAssembly
+Thread 0x17b587000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.430 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
+  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
+  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.993 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (41.7 KB). Loaded Objects now: 3656.
+Memory consumption went from 158.9 MB to 158.8 MB.
+Total: 5.499916 ms (FindLiveObjects: 0.730958 ms CreateObjectMapping: 0.122208 ms MarkObjects: 4.499625 ms  DeleteObjects: 0.146500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17c687000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Zappar.Editor.ZapparUARSettingsProvider.GetOrCreateSettings () [0x00059] in ./Packages/com.zappar.uar/Editor/ZapparUARSettingsProvider.cs:148 
+  at Zappar.Editor.PackageImportSettings.RefreshPackage () [0x00036] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:31 
+  at Zappar.Editor.PackageImportSettings..cctor () [0x00000] in ./Packages/com.zappar.uar/Editor/PackageImportSettings.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (40.6 KB). Loaded Objects now: 3660.
+Memory consumption went from 169.9 MB to 169.8 MB.
+Total: 3.731334 ms (FindLiveObjects: 0.148334 ms CreateObjectMapping: 0.064125 ms MarkObjects: 3.453959 ms  DeleteObjects: 0.064292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3660.
+Memory consumption went from 120.7 MB to 120.7 MB.
+Total: 9.741916 ms (FindLiveObjects: 0.207083 ms CreateObjectMapping: 0.070000 ms MarkObjects: 9.398917 ms  DeleteObjects: 0.065541 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
